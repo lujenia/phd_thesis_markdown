@@ -20,7 +20,7 @@
 \newcommand{\aName}{\aVorname\space \aNachname}
 
 
-\newcommand{\pTitle}{Prof. Dr.}
+\newcommand{\pTitle}{Prof.  Dr.}
 \newcommand{\pVorname}{}
 \newcommand{\pNachname}{}
 \newcommand{\pInstitution}{Hochschule München}
