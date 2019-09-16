@@ -2,12 +2,12 @@
   Zentrale Variablen:
   Workaround bzw. Rückgriff auf LaTex-Befehle, um zentrale Werte immer wieder verwenden zu können.
 -->
-% Abschlussarbeit
+
 \newcommand{\titel}{Titel der Abschlussarbeit}
 \newcommand{\titelEN}{Title of your thesis}
 \newcommand{\datum}{01.03.2018}
 
-% Autor_in
+
 \newcommand{\aVorname}{Max}
 \newcommand{\aNachname}{Mustermann}
 \newcommand{\aGeburtsdatum}{01.04.1998}
@@ -17,15 +17,15 @@
 \newcommand{\aMatrikelnummer}{12345678}
 
 
-\newcommand{\aName}{\aVorname\space\aNachname}
+\newcommand{\aName}{\aVorname\space \aNachname}
 
-% Prüfer_in
+
 \newcommand{\pTitle}{Prof. Dr.}
 \newcommand{\pVorname}{}
 \newcommand{\pNachname}{}
 \newcommand{\pInstitution}{Hochschule München}
 
-% Betreuer_in
+
 \newcommand{\bTitle}{Dr.}
 \newcommand{\bVorname}{}
 \newcommand{\bNachname}{}
@@ -59,14 +59,14 @@
 
         \normalsize
         Prüfer:\\
-        \pTitle\space\pVorname\space\pNachname,\space\pInstitution
+        \pTitle\space \pVorname\space \pNachname,\space \pInstitution
 
         % Firmenlogo
         % \includegraphics[width=0.4\textwidth]{style/firmenlogo.png}
 
         \normalsize
         Betreuer:\\
-        \bTitle\space\bVorname\space\bNachname,\space\bInstitution
+        \bTitle\space \bVorname\space \bNachname,\space \bInstitution
 
         % Abgabedatum
         \datum
